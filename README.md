@@ -10,11 +10,11 @@ A personal project to create a portfolio website for a DevOps Engineer
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 See deployment for notes on how to deploy the project on a live system.
-To get started clone the repository and start coding. Continuous Delivery is implemented using __Github Actions__ and __Netlify__ Wbhook
+To get started clone the repository and start coding. Continuous Delivery is implemented using __Github Actions__
 
 ### Prerequisites
 
-- VS Code or any other editor. (Few that I recommend are Vim, Sublime Text, Notepad++ )
+- VS Code or any other editor. (Few that I recommend are Vim, Sublime Text, Notepad++)
 - Live Server extension for VS Code
 - Git lens for VS Code
 
@@ -24,7 +24,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Deployment
 
-Deployment is done via [Netlify](https://www.netlify.com/).
+Deployment is done via Github Actions
 
 ## Authors
 
