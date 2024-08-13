@@ -40,4 +40,21 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LIC
 * Inspiration
 * etc
 
-## ADD S3 Bucket
+## ADD S3 Bucket policy
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::deep-portfolio-s3-bucket-v1/*"
+            ]
+        }
+    ]
+}
